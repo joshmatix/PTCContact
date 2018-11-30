@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/ptc_name"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="ptc_name"
+        android:layout_weight="0.2"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/ptc_phone1"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ptc_name"
+        android:layout_weight="0.2"
+        android:text="ptc_phone1" />
+
+    <TextView
+        android:id="@+id/ptc_phone2"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ptc_phone1"
+        android:text="ptc_phone2" />
+
+    <TextView
+        android:id="@+id/ptc_email"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/ptc_phone2"
+        android:text="ptc_email" />
+
+    <TextView
+        android:id="@+id/ptc_address"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/ptc_email"
+        android:text="ptc_address" />
+
+</LinearLayout>
